@@ -1,0 +1,19 @@
+{
+  "name": "circular",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "@apjs/dynamic": "^2.0.0",
+    "@apjs/vector": "^2.0.0"
+  }
+}
