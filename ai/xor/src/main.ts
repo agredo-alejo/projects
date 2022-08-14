@@ -67,7 +67,7 @@ animation.animate(async () => {
   await model.train(inputs, targets, {
     shuffle: true,
     batchSize: 1,
-    epochs: 3
+    epochs: 5
   })
 
 
@@ -85,7 +85,7 @@ animation.animate(async () => {
       let color = grayScaleColor(ys[index] * 255)
 
 
-      rect(ctx, i * resolution, j * resolution, resolution)
+      rect(ctx, i * resolution, j * resolution, resolution + 1)
       fill(ctx, color)
       index++
     }
